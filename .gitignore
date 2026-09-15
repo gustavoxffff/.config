@@ -1,2 +1,6 @@
 # GH CLI credentials
 gh/hosts.yml
+
+# Herdr locks, logs, etc
+herdr/*
+!herdr/config.toml
