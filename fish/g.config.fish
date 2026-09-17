@@ -5,7 +5,10 @@
 
 # Format man pages
 set -x MANROFFOPT -c
-set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+
+if type -q eza; and type -q bat
+    set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+end
 
 ## Environment setup
 # Apply .profile: use this to put fish compatible .profile stuff in
