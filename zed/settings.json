@@ -1,0 +1,40 @@
+{
+  # "wsl_connections": [
+  #   {
+  #     "distro_name": "archlinux",
+  #     "user": null,
+  #     "projects": []
+  #   }
+  # ],
+  "helix_mode": true,
+  "text_rendering_mode": "subpixel",
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true,
+    "anthropic_retention": false
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "experimental.theme_overrides": {
+    "editor.background": "#00000000",
+    "background": "#000000cf",
+    "background.appearance": "transparent"
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Ayu Dark",
+  },
+}
