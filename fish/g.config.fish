@@ -1,7 +1,7 @@
 # Configs based on default cachyos fish config
 
-# function fish_greeting
-# end
+function fish_greeting
+end
 
 # Format man pages
 set -x MANROFFOPT -c
