@@ -1,11 +1,11 @@
 {
-  # "wsl_connections": [
-  #   {
-  #     "distro_name": "archlinux",
-  #     "user": null,
-  #     "projects": []
-  #   }
-  # ],
+  // "wsl_connections": [
+  //   {
+  //     "distro_name": "archlinux",
+  //     "user": null,
+  //     "projects": []
+  //   }
+  // ],
   "helix_mode": true,
   "text_rendering_mode": "subpixel",
   "ui_font_family": "JetBrainsMono Nerd Font Mono",
