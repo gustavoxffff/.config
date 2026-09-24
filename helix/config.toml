@@ -8,4 +8,7 @@ theme = "transparent_base64_dark"
     ":redraw"
 ]
 
-
+"C-g" = [
+    ":insert-output glow %{buffer_name} --tui > /dev/tty",
+    ":redraw"
+]
