@@ -1,5 +1,24 @@
 theme = "transparent_base64_dark"
 
+[editor]
+soft-wrap.enable = true
+rulers = [80, 100]
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "·"
+
 [keys.normal]
 "C-y" = [
     ":sh rm -f /tmp/yazi-file",
@@ -9,6 +28,6 @@ theme = "transparent_base64_dark"
 ]
 
 "C-g" = [
-    ":insert-output glow %{buffer_name} --tui > /dev/tty",
+    ":insert-output glow %{buffer_name} --tui -w $(tput cols) > /dev/tty",
     ":redraw"
 ]
